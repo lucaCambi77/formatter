@@ -57,8 +57,8 @@
                         <id>install-formatter-hook</id>
                         <goals>
                             <goal>install-hooks</goal>
-                            <goal>check</goal>
                         </goals>
+                        <phase>package</phase>
                     </execution>
                 </executions>
                 <configuration>
