@@ -17,8 +17,8 @@ public class AppController {
 
     @RequestMapping(method = RequestMethod.GET, produces = { MediaType.APPLICATION_JSON_VALUE })
     @ResponseStatus(code = HttpStatus.OK)
-    public String addUser(@RequestParam String name) {
-        return "hello from " + name;
+    public String helloWorld(@RequestParam String name) {
+        return "Hi from " + name;
     }
 
 }
